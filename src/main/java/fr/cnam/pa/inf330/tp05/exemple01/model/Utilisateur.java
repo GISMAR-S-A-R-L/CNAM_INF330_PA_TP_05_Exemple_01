@@ -1,4 +1,4 @@
-package fr.cnam.pa.inf330.tp05.exo01.model;
+package fr.cnam.pa.inf330.tp05.exemple01.model;
 
 public class Utilisateur {
     String name;

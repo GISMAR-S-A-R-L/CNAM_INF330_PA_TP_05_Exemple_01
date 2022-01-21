@@ -1,4 +1,4 @@
-package fr.cnam.pa.inf330.tp05.exo01;
+package fr.cnam.pa.inf330.tp05.exemple01;
 
 import java.util.ArrayList;
 import java.util.Arrays;

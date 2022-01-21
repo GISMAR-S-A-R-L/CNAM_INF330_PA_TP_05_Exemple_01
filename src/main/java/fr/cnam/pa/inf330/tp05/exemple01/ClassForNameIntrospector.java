@@ -1,4 +1,4 @@
-package fr.cnam.pa.inf330.tp05.exo01;
+package fr.cnam.pa.inf330.tp05.exemple01;
 
 public class ClassForNameIntrospector {
     public static void main(String[] args) throws Exception {

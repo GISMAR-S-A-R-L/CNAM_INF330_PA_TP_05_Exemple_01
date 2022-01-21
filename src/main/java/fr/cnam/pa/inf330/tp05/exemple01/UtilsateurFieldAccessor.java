@@ -1,6 +1,6 @@
-package fr.cnam.pa.inf330.tp05.exo01;
+package fr.cnam.pa.inf330.tp05.exemple01;
 
-import fr.cnam.pa.inf330.tp05.exo01.model.Utilisateur;
+import fr.cnam.pa.inf330.tp05.exemple01.model.Utilisateur;
 
 import java.lang.reflect.Field;
 
