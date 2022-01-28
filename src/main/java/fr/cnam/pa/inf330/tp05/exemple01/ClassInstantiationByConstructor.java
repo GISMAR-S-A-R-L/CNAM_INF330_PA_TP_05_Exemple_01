@@ -8,9 +8,10 @@ import java.lang.reflect.InvocationTargetException;
 public class ClassInstantiationByConstructor {
     public static void main(String[] args) {
         try {
-            Constructor<Utilisateur> constructor = Utilisateur.class.getConstructor(String.class, String.class, int.class);
+            Constructor<Utilisateur> constructor = Utilisateur.class.getConstructor(String.class, String.class);
             System.out.println("Utilisation du constructeur " + constructor.toString());
-            Utilisateur utilisateur = constructor.newInstance("Gustavo", "loginGustavo",667766);
+            Utilisateur utilisateur = constructor.newInstance("Gustavo", "loginGustavo");
+
             System.out.println("L'instance créée est : " + utilisateur.toString());
             Constructor<Utilisateur> privateConstructor = Utilisateur.class.getDeclaredConstructor(String.class);
             System.out.println("Le constructeur privé est : " + privateConstructor.getName());
